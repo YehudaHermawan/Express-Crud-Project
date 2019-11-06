@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
  if(err)
  var errornya  = ("Error Selecting : %s ",err );   
  req.flash('msg_error', errornya);   
- res.render('barang/list',{title:"Barang",data:rows});
+ res.render('barang/list',{title:"Barang",data:rows, menuId: 'barang'});
  });
      });
 });var express = require('express');

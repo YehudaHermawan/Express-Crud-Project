@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/blankpage', function(req, res, next) {
-  res.render('blankpage', { title: 'Express' });
+  res.render('blankpage', { title: 'Blankpage' });
 });
 
 
